@@ -102,6 +102,9 @@ Please refer to `evaluation.py` for evaluation arguments. (Optional)
 
 ---
 #### Docs
+- https://huggingface.co/xlm-roberta-base
+- https://huggingface.co/xlm-roberta-large
+- https://huggingface.co/bert-base-multilingual-cased
 - https://github.com/SKTBrain/KoBERT#using-with-pytorch
 - https://github.com/monologg/KoBERT-Transformers
 - https://github.com/monologg/KoBERT-NER
