@@ -63,16 +63,17 @@ with open('./label_type.pkl', 'rb') as f:
 | Model | Batch Size | epochs | LR | Train Time |
 | :--- | ---: | ---: | ---: | ---: |
 | `XLM-Roberta-large` | 18 | 10 | 3e-5 | 34h |
-| `XLM-Roberta-base` | 18 | 6 | 1e-5 | 20h |
+| `XLM-Roberta-base` | 18 | 6 | 1e-5 | 12h |
+| `BERT-base-multilingual-cased`| 18 | 6 | 5e-5 | 20h |
 
-- [[튜닝 히스토리]](./docs/tuning_history.md)
 - **P40**을 이용하여 학습하였습니다.
 
 ## Result
 | Model | Accuracy |             
 | --- | ---: |
 | [XLM-Roberta-large](https://huggingface.co/xlm-roberta-large) | 79.50 |
-| [XLM-Roberta-base](https://huggingface.co/xlm-roberta-base) | 75.20 |
+| [XLM-Roberta-base](https://huggingface.co/xlm-roberta-base) | 60.10 |
+| [BERT-base-multilingual-cased](https://huggingface.co/bert-base-multilingual-cased)| 71.70 |
 
 ## How to use
 ### Install requirements
