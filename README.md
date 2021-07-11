@@ -18,7 +18,7 @@
 ## Task
 `Relation Extraction(관계 추출)`은 문장의 단어(Entity)에 대한 속성과 관계를 예측하는 문제입니다. 관계 추출은 지식 그래프 구축을 위한 핵심 구성 요소로 `구조화된 검색`, `감정 분석`, `질문 답변하기`, `요약`과 같은 자연어처리 응용 프로그램에서 중요한 기술입니다. 비구조적인 자연어 문장에서 구조적인 triple을 추출해 정보를 요약하고 중요한 성분을 파악할 수 있습니다.
 
-본 프로젝트(2021.04.12 - 2021.04.25)에서는 문장 내 두 단어의 관계 데이터를 이용하여 단어의 관계를 추론하는 모델을 학습했습니다. 그리고 임의의 문장에 대해 문장 내 두 단어의 관계를 예측했습니다. Base model로는 [XLM-Roberta](https://huggingface.co/transformers/model_doc/xlmroberta.html) `base`, `large` 를 사용했습니다.
+본 프로젝트(2021.04.12 - 2021.04.25)에서는 문장 내 두 단어의 관계 데이터를 이용하여 단어의 관계를 추론하는 모델을 학습했습니다. 그리고 임의의 문장에 대해 문장 내 두 단어의 관계를 예측했습니다. Base model로는 [XLM-Roberta-base](https://huggingface.co/xlm-roberta-base), [XLM-Roberta-large](https://huggingface.co/xlm-roberta-large), [BERT-base-multilingual-cased](https://huggingface.co/bert-base-multilingual-cased) 를 사용했습니다.
 
 ## Dataset
 ### Train dataset
