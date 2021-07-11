@@ -99,5 +99,12 @@ python evaluation.py
 ```
 Please refer to `evaluation.py` for evaluation arguments. (Optional)
 
+---
+#### Docs
+- https://github.com/SKTBrain/KoBERT#using-with-pytorch
+- https://github.com/monologg/KoBERT-Transformers
+- https://github.com/monologg/KoBERT-NER
+- https://github.com/eagle705/pytorch-bert-crf-ner
+
 #### License
 CC-BY-SA
