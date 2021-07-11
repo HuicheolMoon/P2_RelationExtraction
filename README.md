@@ -8,7 +8,7 @@
   - [Test dataset](#test-dataset)
 - [Training details](#training-details)
 - [Result](#result)
-- [How to use](#how-to-use)
+- [Usage](#usage)
   - [Install requirements](#install-requirements)
   - [Train](#train)
   - [Inference](#inference)
@@ -76,7 +76,7 @@ with open('./label_type.pkl', 'rb') as f:
 | [XLM-Roberta-base](https://huggingface.co/xlm-roberta-base) | 60.10 |
 | [BERT-base-multilingual-cased](https://huggingface.co/bert-base-multilingual-cased)| 71.70 |
 
-## How to use
+## Usage
 ### Install requirements
 ```
 pip install -r requirements.txt
