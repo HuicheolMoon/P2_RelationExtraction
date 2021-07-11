@@ -1,3 +1,16 @@
-# Folders to ignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.venv
 venv/
-.idea/
+venv.bak/
+
+# baseline
+baseline/
+
+# dataset
+data/
