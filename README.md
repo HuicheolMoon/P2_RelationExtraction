@@ -6,6 +6,7 @@
     - [Preprocessing](#preprocessing)
     - [Relation classes](#relation-classes)
   - [Test dataset](#test-dataset)
+- [Training details](#training-details)
 - [Result](#result)
 - [How to use](#how-to-use)
   - [Install requirements](#install-requirements)
@@ -59,7 +60,7 @@ with open('./label_type.pkl', 'rb') as f:
 * column 1-8: train dataset과 동일
 * column 9: 'blind' relation -> will be predicted
 
-## Training Details
+## Training details
 | Model | Batch Size | epochs | LR | Train Time |
 | :--- | ---: | ---: | ---: | ---: |
 | `XLM-Roberta-large` | 18 | 10 | 3e-5 | 34h |
