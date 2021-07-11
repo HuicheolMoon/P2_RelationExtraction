@@ -93,5 +93,11 @@ python inference.py
 ```
 Please refer to `inference.py` for inference arguments. (Optional)
 
+### Evaluation
+```
+python evaluation.py
+```
+Please refer to `evaluation.py` for evaluation arguments. (Optional)
+
 #### License
 CC-BY-SA
