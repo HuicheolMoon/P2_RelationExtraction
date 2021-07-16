@@ -1,0 +1,19 @@
+1. 한국어 특화 pre-trained model 사용해보기
+ - KoBERT (SKTBrain)
+ - KoGPT2
+ - KoBart
+ - KoElectra
+
+2. entity special token 추가해보기([ENT])
+ - entity embedding layer도 추가해보기
+    - token_type_ids가 segment a는 0, segment b는 1이 들어감. 거기서 특정 token들에서만 +1하면 될 듯?
+
+3. Additional output layer 추가해보기
+
+4. Data Augmentation
+ - pororo (KakaoBrain)
+ - translation : entity에 []를 씌워주면 entity 보존 가능
+
+5. multi input
+ - 기존 data load는 single. multi sentence input 사용해보기
+    (ex. 이순신 장군은 조선 출신이다. -> [CLS] 이순신 장군은 조선 출신이다. [SEP] 이순신과 조선의 관계는? [SEP])
